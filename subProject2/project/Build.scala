@@ -4,7 +4,7 @@ import PlayProject._
 
 object ApplicationBuild extends Build {
 
-    val appName         = "commonA"
+    val appName         = "commonB"
     val appVersion      = "1.0-SNAPSHOT"
 
     val appDependencies = Seq(
@@ -12,7 +12,7 @@ object ApplicationBuild extends Build {
     )
 
     val main = PlayProject(appName, appVersion, appDependencies).settings(
-      	organization := "org.myyk"
+        organization := "org.myyk"
     )
 
 }
